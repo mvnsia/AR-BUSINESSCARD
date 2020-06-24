@@ -1,2 +1,2 @@
-# AR-BUSINESSCARD
-This an AR Business Card which shows details about me when camera is pointed at it
+# AR-BusinessCard
+Sample of projecting my details on different virtual buttons
