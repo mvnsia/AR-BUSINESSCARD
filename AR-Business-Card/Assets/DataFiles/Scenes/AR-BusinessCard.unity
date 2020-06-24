@@ -588,6 +588,7 @@ GameObject:
   - component: {fileID: 559212429}
   - component: {fileID: 559212428}
   - component: {fileID: 559212427}
+  - component: {fileID: 559212432}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -714,6 +715,21 @@ MonoBehaviour:
   mWidth: 6
   mHeight: 8.858427
   mRuntimeTexture: {fileID: 0}
+--- !u!114 &559212432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559212425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c1e8322687ff345accbed5e991a562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagego: {fileID: 1907425426}
+  githubgo: {fileID: 2005040895}
+  resumego: {fileID: 1903358954}
 --- !u!21 &1112473694
 Material:
   serializedVersion: 6
