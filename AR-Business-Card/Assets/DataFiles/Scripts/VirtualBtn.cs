@@ -9,6 +9,7 @@ public class VirtualBtn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        VirtualButtonBehaviour[] vrb = GetComponentsInChildren<VirtualButtonBehaviour>();
         for(int i=0;i<vrb.Length;i++)
         {
             vrb[i].RegisterOnButtonPressed(OnButtonPressed);
